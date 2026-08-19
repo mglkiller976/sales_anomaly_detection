@@ -1,0 +1,311 @@
+{
+  "engine": "hier-robust-v2",
+  "generated_at": "2026-08-18T10:35:12.358302+00:00",
+  "elapsed_seconds": 46.4,
+  "config": {
+    "calendar_preset": "mongolia",
+    "auto_events": true,
+    "sensitivity": "medium",
+    "causal": false,
+    "model": {
+      "half_window": 14,
+      "half_window_max": 90,
+      "scale_window": 45,
+      "min_neighbours": 8,
+      "sigma_floor": 0.06,
+      "causal": false,
+      "min_active_days": 60,
+      "min_active_days_item": 90,
+      "min_active_days_branch_item": 180,
+      "min_coverage_branch_item": 0.5,
+      "cp_z": 3.0,
+      "cp_min_log": 0.26236426446749106,
+      "cp_min_hold_weeks": 6,
+      "cp_max_per_series": 6
+    },
+    "detect": {
+      "sensitivity": "medium",
+      "z_floor": {
+        "global": 3.5,
+        "branch": 4.0,
+        "category1": 4.0,
+        "category2": 4.0,
+        "branch_category": 4.5,
+        "item": 4.5,
+        "branch_item": 5.0
+      },
+      "rate": {
+        "global": 0.02,
+        "branch": 0.01,
+        "category1": 0.01,
+        "category2": 0.008,
+        "branch_category": 0.004,
+        "item": 0.005,
+        "branch_item": 0.0015
+      },
+      "spike_ratio": 1.5,
+      "drop_ratio": 0.67,
+      "fine_spike_ratio": 2.5,
+      "fine_drop_ratio": 0.4,
+      "materiality_floor": 0.0001,
+      "fine_materiality_floor": 0.0003,
+      "warmup_days": 21,
+      "zero_open_prob": 0.9,
+      "zero_min_series_share": 0.0001,
+      "systemic_min": 4,
+      "systemic_share": 0.2,
+      "iso_contamination": 0.005,
+      "max_per_series": 0
+    },
+    "custom_events": null
+  },
+  "thresholds": {
+    "global": 3.5,
+    "branch": 4.0,
+    "category1": 4.0,
+    "category2": 4.0,
+    "branch_category": 6.38,
+    "item": 4.5,
+    "branch_item": 5.0
+  },
+  "thresholds_clipped": {
+    "global": false,
+    "branch": false,
+    "category1": false,
+    "category2": false,
+    "branch_category": false,
+    "item": false,
+    "branch_item": false
+  },
+  "data": {
+    "rows": 4460416,
+    "date_min": "2022-01-03",
+    "date_max": "2026-05-31",
+    "days": 1579,
+    "calendar_days": 1610,
+    "amount_total": 466173837800.0,
+    "median_day": 260605000.0,
+    "branches": 40,
+    "category1": 12,
+    "category2": 44,
+    "items": 658,
+    "dropped_rows": 0,
+    "negative_rows": 0,
+    "aggregated_from": 4460416,
+    "fingerprint": "6090a206c4e5",
+    "series_scored": {
+      "global": 1,
+      "branch": 40,
+      "category1": 12,
+      "category2": 44,
+      "branch_category": 448,
+      "item": 658,
+      "branch_item": 2087
+    },
+    "series_universe": {
+      "global": 1,
+      "branch": 40,
+      "category1": 12,
+      "category2": 44,
+      "branch_category": 462,
+      "item": 658,
+      "branch_item": 8650
+    },
+    "calendar_event_days": 210,
+    "auto_events": 0
+  },
+  "counts": {
+    "total": 6384,
+    "by_severity": {
+      "high": 2902,
+      "medium": 2755,
+      "critical": 621,
+      "info": 59,
+      "low": 47
+    },
+    "by_type": {
+      "point_spike": 2803,
+      "point_drop": 1570,
+      "unexpected_zero": 1233,
+      "level_shift": 448,
+      "unusual_mix": 209,
+      "activity_shift": 83,
+      "company_closure": 31,
+      "long_silence": 5,
+      "data_gap": 2
+    },
+    "by_level": {
+      "branch_item": 2725,
+      "item": 1526,
+      "branch_category": 1071,
+      "branch": 919,
+      "category2": 83,
+      "global": 34,
+      "category1": 26
+    },
+    "per_level_raw": {
+      "global": {
+        "point": 0,
+        "zero": 0,
+        "shift": 1,
+        "activity": 0
+      },
+      "branch": {
+        "point": 199,
+        "zero": 495,
+        "shift": 2,
+        "activity": 13
+      },
+      "category1": {
+        "point": 18,
+        "zero": 3,
+        "shift": 5,
+        "activity": 0
+      },
+      "category2": {
+        "point": 54,
+        "zero": 6,
+        "shift": 26,
+        "activity": 0
+      },
+      "branch_category": {
+        "point": 773,
+        "zero": 298,
+        "shift": 0,
+        "activity": 0
+      },
+      "item": {
+        "point": 964,
+        "zero": 71,
+        "shift": 468,
+        "activity": 91
+      },
+      "branch_item": {
+        "point": 2365,
+        "zero": 360,
+        "shift": 0,
+        "activity": 0
+      }
+    }
+  },
+  "coverage": {
+    "share_of_active_days_scorable": {
+      "global": {
+        "ALL": 1.0
+      },
+      "branch": {
+        "DC-01": 0.994,
+        "FR-01": 0.997,
+        "FR-02": 0.997,
+        "FR-03": 0.998,
+        "FR-04": 0.996,
+        "FR-05": 1.0,
+        "FR-06": 0.961,
+        "ON-01": 1.0,
+        "ON-02": 0.876,
+        "ON-03": 0.949,
+        "RG-01": 1.0,
+        "RG-02": 1.0,
+        "RG-03": 1.0,
+        "RG-04": 1.0,
+        "RG-05": 1.0,
+        "RG-06": 1.0,
+        "RG-07": 1.0,
+        "RG-08": 1.0,
+        "RG-09": 1.0,
+        "RG-10": 0.98,
+        "UB-01": 1.0,
+        "UB-02": 1.0,
+        "UB-03": 1.0,
+        "UB-04": 1.0,
+        "UB-05": 1.0,
+        "UB-06": 1.0,
+        "UB-07": 1.0,
+        "UB-08": 1.0,
+        "UB-09": 1.0,
+        "UB-10": 1.0,
+        "UB-11": 1.0,
+        "UB-12": 1.0,
+        "UB-13": 1.0,
+        "UB-14": 1.0,
+        "WS-01": 1.0,
+        "WS-02": 1.0,
+        "WS-03": 1.0,
+        "WS-04": 1.0,
+        "WS-05": 1.0,
+        "WS-06": 0.991
+      },
+      "category1": {
+        "111": 1.0,
+        "126": 1.0,
+        "140": 1.0,
+        "205": 1.0,
+        "21": 1.0,
+        "34": 1.0,
+        "47": 1.0,
+        "55": 1.0,
+        "63": 1.0,
+        "78": 1.0,
+        "82": 1.0,
+        "90": 1.0
+      },
+      "category2": {
+        "1111": 1.0,
+        "1112": 1.0,
+        "1113": 1.0,
+        "1114": 1.0,
+        "1115": 1.0,
+        "1261": 1.0,
+        "1262": 0.978,
+        "211": 1.0,
+        "212": 1.0,
+        "213": 1.0,
+        "214": 1.0,
+        "215": 1.0,
+        "216": 1.0,
+        "341": 1.0,
+        "342": 1.0,
+        "343": 1.0,
+        "344": 1.0,
+        "345": 1.0,
+        "471": 1.0,
+        "472": 1.0,
+        "473": 1.0,
+        "474": 1.0,
+        "475": 1.0,
+        "476": 1.0,
+        "477": 1.0,
+        "478": 1.0,
+        "551": 1.0,
+        "552": 1.0,
+        "553": 1.0,
+        "631": 1.0,
+        "632": 1.0,
+        "633": 1.0,
+        "781": 1.0,
+        "782": 1.0,
+        "783": 1.0,
+        "784": 1.0,
+        "785": 1.0,
+        "821": 1.0,
+        "822": 1.0,
+        "901": 1.0,
+        "902": 1.0,
+        "903": 1.0,
+        "904": 1.0,
+        "UNKNOWN": 1.0
+      }
+    },
+    "below_50pct": []
+  },
+  "name": "Demo dataset (2022-01 → 2026-05)",
+  "dates": [
+    "2022-01-03",
+    "2026-05-31"
+  ],
+  "source": {
+    "name": "demo_sales.parquet",
+    "path": "data/demo_sales.parquet",
+    "size_mb": 14.5
+  }
+}

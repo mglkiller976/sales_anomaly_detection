@@ -1,0 +1,10 @@
+start,end,type,entity,description
+2023-10-09,2024-07-21,activity_shift,ON-02,order channel trades only ~1 day in 4 for 9 months
+2023-11-20,,level_shift,RG-05,revenue steps up 45% after refurbishment
+2024-01-05,2024-03-24,data_gap,FR-01/02/03/04,four franchise branches missing from the extract
+2025-02-01,2025-10-26,long_silence,WS-06,dark for 268 days between two trading periods
+2025-04-09,2025-04-24,unexpected_zero,RG-01,16-day refurbishment closure
+2025-05-26,,level_shift,UB-06,revenue drops to 58% after a competitor opens
+2025-06-17,,point_drop,UB-03,only a fraction of the day posted
+2025-08-01,2025-08-08,data_gap,WS-01..04,wholesale channels dark for 8 days
+2025-12-01,,point_spike,UB-08,large corporate cake order

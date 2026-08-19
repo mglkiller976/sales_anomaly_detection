@@ -1,0 +1,46 @@
+﻿CATEGORY_1_ID,CATEGORY_1_NAME,CATEGORY_2_ID,CATEGORY_2_NAME
+21,Bread,211,Bread-Plain
+21,Bread,212,Bread-Seeded
+21,Bread,213,Bread-Sweet
+21,Bread,214,Bread-Artisan
+21,Bread,215,Bread-Rye
+21,Bread,216,Bread-Gluten free
+34,Layered pastry,341,Layered-Plain
+34,Layered pastry,342,Layered-Filled
+34,Layered pastry,343,Layered-Glazed
+34,Layered pastry,344,Layered-Mini
+34,Layered pastry,345,Layered-Party
+47,Cake,471,Cake-Birthday
+47,Cake,472,Cake-Brand
+47,Cake,473,Cake-Slice
+47,Cake,474,Cake-Mini
+47,Cake,475,Cake-Custom
+47,Cake,476,Cake-Cheesecake
+47,Cake,477,Cake-Roll
+47,Cake,478,Cake-Seasonal
+55,Bun,551,Bun-Sweet
+55,Bun,552,Bun-Burger
+55,Bun,553,Bun-Filled
+63,Pie,631,Pie-Slice
+63,Pie,632,Pie-Whole
+63,Pie,633,Pie-Mini
+78,Pizza,781,Pizza-Whole
+78,Pizza,782,Pizza-Slice
+78,Pizza,783,Pizza-Frozen
+78,Pizza,784,Pizza-Half
+78,Pizza,785,Pizza-Party
+82,Sandwich,821,Sandwich-Cold
+82,Sandwich,822,Sandwich-Hot
+90,Cupcake,901,Cupcake-Plain
+90,Cupcake,902,Cupcake-Decorated
+90,Cupcake,903,Cupcake-Box
+90,Cupcake,904,Cupcake-Seasonal
+111,Drinks,1111,Drinks-Coffee
+111,Drinks,1112,Drinks-Juice
+111,Drinks,1113,Drinks-Water
+111,Drinks,1114,Drinks-Tea
+111,Drinks,1115,Drinks-Shake
+126,Biscuit,1261,Biscuit-Assorted
+126,Biscuit,1262,Biscuit-Gift tin
+140,Bundle offer,UNKNOWN,(none)
+205,Clearance,UNKNOWN,(none)
